@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/txtEdit"
+        android:textColor="#FF02"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Cập Nhật Công Việc"
+        android:textSize="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <EditText
+        android:id="@+id/edtEdit"
+        android:textStyle="bold"
+        android:textColor="#FAE214"
+        android:textColorHint="#1CFA14"
+        android:textSize="25dp"
+        android:hint="Mời Bạn Nhập Công Việc"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/custom_xn_btn"
+            android:id="@+id/btnXacNhanEdit"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_weight="5"
+            android:textColor="#FA0032"
+            android:text="Xác Nhận "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnHuyEdit"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#E80926"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
